@@ -39,7 +39,7 @@ call etMediaAccess('screen')via child process, expect TRUE
   console.log('MAIN PROCESS CALL #1. Current Value: ', status )
 
   console.log('awaiting for 30 seconds. Change app perms now.')
-  await setTimeout(5000);
+  await setTimeout(30000);
   console.log('done awaiting.')
   console.log('Main process should not be updated.');
 
